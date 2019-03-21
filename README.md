@@ -1,20 +1,20 @@
-# dopebot
+# covilbot
 
-Slack bot which connects with Mopidy and Spotify.
+Slack bot which connects with Mopidy and Spotify. A fork from [100hz/dopebot](https://github.com/100hz/dopebot).
 
 ## Installation
 
-1. `npm install dopebot --global`
+1. `npm install covilbot --global`
 
 ## Usage
 
 
-`dopebot --token "<SLACK_TOKEN>" --channel "<SLACK_CHANNEL>" --id "<SPOTIFY_CLIENT_ID>" --secret "<SPOTIFY_CLIENT_SECRET>" --mopidy "<MOPIDY_URL>" --brain`
+`covilbot --token "<SLACK_TOKEN>" --channel "<SLACK_CHANNEL>" --id "<SPOTIFY_CLIENT_ID>" --secret "<SPOTIFY_CLIENT_SECRET>" --mopidy "<MOPIDY_URL>" --brain`
 
-Please see `dopebot --help`:
+Please see `covilbot --help`:
 
 ```
-Usage: dopebot [options]
+Usage: covilbot [options]
 
 Options:
   --token, -t       Set token for the Slack API              [string] [required]
@@ -22,10 +22,10 @@ Options:
                                                              [string] [required]
   --mopidy, -m, -m  Set the WS-URL of Mopidy
                              [string] [default: "ws://localhost:6680/mopidy/ws"]
-  --dialog, -d      Only respond to <@dopebot>        [boolean] [default: false]
+  --dialog, -d      Only respond to <@covilbot>        [boolean] [default: false]
   --brain, -b       Remember user commands            [boolean] [default: false]
   --unfurl, -u      Unfold Spotify URIs in Slack      [boolean] [default: false]
-  --emoji, -e       Dopebot emoji icon in Slack
+  --emoji, -e       Covilbot emoji icon in Slack
                                               [string] [default: ":loud_sound:"]
   --limit, -l, -l   Set limit for Spotify API result lists[number] [default: 20]
   --id, -i          Set the Spotify client Id                [string] [required]
@@ -36,9 +36,9 @@ Options:
 
 For general Slack integration information please refer to the official Slack [documentation](https://api.slack.com/custom-integrations/legacy-tokens).
 
-In the channel where you have added dopebot try: `help` to list all commands.
+In the channel where you have added covilbot try: `help` to list all commands.
 
-For Spotify search integration please create an [app](https://developer.spotify.com/my-applications/) to generate client and secret. 
+For Spotify search integration please create an [app](https://developer.spotify.com/my-applications/) to generate client and secret.
 
 ## Contributors
 

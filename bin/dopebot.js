@@ -6,7 +6,7 @@
 
 'use strict';
 
-process.title = 'dopebot';
+process.title = 'covilbot';
 
 // Find the dopebot lib
 var path = require('path');
