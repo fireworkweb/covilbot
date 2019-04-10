@@ -1,6 +1,6 @@
 {
   "name": "covilbot",
-  "version": "0.3.5",
+  "version": "1.0.0",
   "description": "Slack bot which connects with Mopidy and Spotify",
   "bin": {
     "covilbot": "bin/dopebot.js"
@@ -28,12 +28,12 @@
   },
   "homepage": "https://github.com/100hz/fireworkweb#readme",
   "dependencies": {
-    "@slack/client": "^3.8.1",
-    "html-entities": "^1.2.0",
-    "mopidy": "^0.5.0",
-    "spotify-web-api-node": "^2.4.0",
-    "winston": "^2.3.1",
-    "yargs": "^6.6.0"
+    "@slack/client": "^5.0.0",
+    "html-entities": "^1.2.1",
+    "mopidy": "^1.0.1",
+    "spotify-web-api-node": "^4.0.0",
+    "winston": "^3.2.1",
+    "yargs": "^13.2.2"
   },
   "devDependencies": {
     "standard": "*"
