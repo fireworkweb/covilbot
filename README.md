@@ -8,7 +8,16 @@ Slack bot which connects with Mopidy and Spotify. A fork from [100hz/dopebot](ht
 
 ## Usage
 
-`covilbot --token "<SLACK_TOKEN>" --bot-token "<SLACK_BOT_TOKEN>" --channel "<SLACK_CHANNEL_ID>" --id "<SPOTIFY_CLIENT_ID>" --secret "<SPOTIFY_CLIENT_SECRET>" --mopidy "<MOPIDY_URL>" --brain`
+```sh
+covilbot
+  --token "<SLACK_TOKEN>"
+  --bot-token "<SLACK_BOT_TOKEN>"
+  --channel "<SLACK_CHANNEL_ID>"
+  --id "<SPOTIFY_CLIENT_ID>"
+  --secret "<SPOTIFY_CLIENT_SECRET>"
+  --mopidy "<MOPIDY_URL>"
+  --brain
+```
 
 Please see `covilbot --help`:
 
@@ -26,7 +35,6 @@ Options:
   --dialog, -d     Only respond to <@covilbot>         [boolean] [default: false]
   --brain, -b      Remember user commands             [boolean] [default: false]
   --unfurl, -u     Unfold Spotify URIs in Slack       [boolean] [default: false]
-  --emoji, -e      Covilbot emoji icon in Slack[string] [default: ":loud_sound:"]
   --limit, -l      Set limit for Spotify API result lists [number] [default: 20]
   --id, -I         Set the Spotify client Id                 [string] [required]
   --secret, -S     Set the Spotify client secret             [string] [required]
