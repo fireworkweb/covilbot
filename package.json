@@ -1,6 +1,6 @@
 {
   "name": "covilbot",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Slack bot which connects with Mopidy and Spotify",
   "bin": {
     "covilbot": "bin/dopebot.js"
