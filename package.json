@@ -24,9 +24,9 @@
   "author": "Sebastian Krüger <sk@theblackestbox.net>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/100hz/fireworkweb/issues"
+    "url": "https://github.com/fireworkweb/covilbot/issues"
   },
-  "homepage": "https://github.com/100hz/fireworkweb#readme",
+  "homepage": "https://github.com/fireworkweb/covilbot#readme",
   "dependencies": {
     "@slack/client": "^5.0.0",
     "html-entities": "^1.2.1",
